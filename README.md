@@ -2,4 +2,4 @@
 #### Unofficial implementation of [LEDnet](https://arxiv.org/pdf/1905.02423.pdf) in tensorflow keras
 
 
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0wAUN4bwzeM1yX7aU-J3XT56BjyNYDJn3lkyR6XZboxoKHRk)
+![alt text](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/1d327de48c02f886303c1b7627724d4ed795ad91/3-Table1-1.png)
