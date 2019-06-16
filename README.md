@@ -1,4 +1,5 @@
-# LEDNet- TF Keras implementation
+# LEDNet- Keras implementation
+> (Tensorflow backend)
 #### Unofficial implementation of [LEDnet](https://arxiv.org/pdf/1905.02423.pdf) in tensorflow keras
 
 ### Block Diagram
