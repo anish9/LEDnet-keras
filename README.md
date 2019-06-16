@@ -3,7 +3,7 @@
 
 ### Block Diagram
 ![alt text](https://github.com/anish9/LEDnet-keras/blob/master/logs/2-Figure1-1.png)
-> Design
+
 ![alt_text](https://github.com/anish9/LEDnet-keras/blob/master/logs/3-Table1-1.png)
 
 ### Requirements
@@ -32,7 +32,7 @@ model_param = {"image_size" : (512,512),
 
 
 ### Cityscape results on paper
-[!alt_text](https://github.com/anish9/LEDnet-keras/blob/master/logs/5-Figure3-1.png)
+![alt_text](https://github.com/anish9/LEDnet-keras/blob/master/logs/5-Figure3-1.png)
 
 > Todo
 - [x] Implement encoder and decoder block
