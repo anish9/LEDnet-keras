@@ -7,10 +7,10 @@
 ![alt_text](https://github.com/anish9/LEDnet-keras/blob/master/logs/3-Table1-1.png)
 
 ### Requirements
-Python3.6
-Tensorflow 1.13
-opencv 
-albumenations
+##### Python3.6
+##### Tensorflow 1.13
+##### opencv 
+##### albumentations
 
 ## Custom Training
 ```
