@@ -6,6 +6,11 @@
 > Design
 ![alt_text](https://github.com/anish9/LEDnet-keras/blob/master/logs/3-Table1-1.png)
 
+## Custom Training
+```
+```
+
+
 > Todo
 - [x] Implement encoder and decoder block
 - [x] Update pre-trained weights on Cityscapes or Mapillary dataset
