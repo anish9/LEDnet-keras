@@ -8,6 +8,20 @@
 
 ## Custom Training
 ```
+data_dir =  "/home/anish/magnetar/anish9/LEDnet/dresses_data/" #Root training and Val data dir 
+train_image = "train_images"
+val_images = "val_images"
+train_masks = "train_masks"
+val_masks = "val_masks"
+
+#do not change below directory to avoid directory conflicts 
+
+
+model_param = {"image_size" : (512,512),
+			   "train_batch_size" : 2,
+			   "val_batch_size" : 2,
+			   "augument":False
+			   }
 ```
 
 
