@@ -31,6 +31,9 @@ model_param = {"image_size" : (512,512),
 ```
 
 
+### Cityscape results on paper
+[!alt_text](https://github.com/anish9/LEDnet-keras/blob/master/logs/5-Figure3-1.png)
+
 > Todo
 - [x] Implement encoder and decoder block
 - [x] Update pre-trained weights on Cityscapes or Mapillary dataset
