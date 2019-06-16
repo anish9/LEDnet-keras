@@ -6,6 +6,12 @@
 > Design
 ![alt_text](https://github.com/anish9/LEDnet-keras/blob/master/logs/3-Table1-1.png)
 
+### Requirements
+Python3.6
+Tensorflow 1.13
+opencv 
+albumenations
+
 ## Custom Training
 ```
 data_dir =  "/home/anish/data_dir/" #Root training and Val data dir 
