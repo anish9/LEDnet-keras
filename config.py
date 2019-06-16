@@ -6,7 +6,7 @@ import numpy as np
 
 
 
-data_dir =  "/home/anish/magnetar/anish9/LEDnet/dresses_data/" #Root training and Val data dir 
+data_dir =  "/home/anish/datadir/" #Root training and Val data dir 
 train_image = "train_images"
 val_images = "val_images"
 train_masks = "train_masks"
