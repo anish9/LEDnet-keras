@@ -15,7 +15,7 @@ train_masks = "train_masks"
 val_masks = "val_masks"
 
 #do not change below directory to avoid directory conflicts 
-
+#original input dimension in paper : 1024x512
 
 model_param = {"image_size" : (512,512),
 			   "train_batch_size" : 2,
