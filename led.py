@@ -110,7 +110,12 @@ def nnbt_conv(in_tensor1,in_tensor2,block,filter_,dilation_rate=None):
 def nnbt(in_tensor,block,filt_val,dilation_rate):
     ch0,ch1 = splitter(in_tensor)
     nconv = nnbt_conv(ch0,ch1,block,filt_val,dilation_rate)
-    return nconv
+    skip = Conv2D(K.int_shape(nconv)[3],1,padding="same")(in_tensor)
+    skip_layer = add([skip,nconv])
+    skip_layer = Conv2D(256,1,padding="same")(skip_layer)
+    skip_layer = Activation("relu")(skip_layer)
+    skip_layer = BatchNormalization(axis=-1)(skip_layer)
+    return skip_layer
 
 def encoder(inpu):
     ds1 = downsampling(inpu,32,1)
